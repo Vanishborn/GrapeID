@@ -1,3 +1,5 @@
+# Turns query sequence reads into consensus sequences
+
 import os
 
 configfile: "config.yml"

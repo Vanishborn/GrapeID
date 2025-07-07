@@ -1,5 +1,5 @@
 .DS_Store
 
-Genome/
-Query/
+Genome/*
+Query/*
 Result/

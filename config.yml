@@ -10,8 +10,8 @@ threads:
 query_dir: "Query"
 
 samples:
-  R175: "FPS_RUN175_Vitis-H4275_S10_R1_001.fastq.gz"
-  R237: "FPS_RUN237_Vitis-H6177_S1_R1_001.fastq.gz"
-  R251: "FPS_RUN251_Vitis-H6091_S7_R1_001.fastq.gz"
+  S1: "S1_r1.fastq.gz"
+  S2: "S2_r1.fastq.gz"
+  S3: ["S3_r1.fastq.gz", "S3_r2.fastq.gz"]
 
-reference: "Genome/GCF_000003745.3_12X_genomic.fna"
+reference: "Genome/ref.fa"
