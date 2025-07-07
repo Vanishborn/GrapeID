@@ -1,6 +1,9 @@
 .DS_Store
 .snakemake
 
-Genome/*
-Query/*
-Result/
+Query/Genome/*
+Query/Reads/*
+Query/Result/*
+
+README-temp.md
+ID/*

@@ -7,7 +7,7 @@ threads:
   samtools_markdup: 4
   samtools_consensus: 4
 
-query_dir: "Query"
+query_dir: "Reads"
 
 samples:
   S1: "S1_r1.fastq.gz"
