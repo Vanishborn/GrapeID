@@ -1,0 +1,17 @@
+threads:
+  hisat2_build: 4
+  hisat2_align: 8
+  samtools_view: 4
+  samtools_fixmate: 4
+  samtools_sort: 4
+  samtools_markdup: 4
+  samtools_consensus: 4
+
+query_dir: "Query"
+
+samples:
+  R175: "FPS_RUN175_Vitis-H4275_S10_R1_001.fastq.gz"
+  R237: "FPS_RUN237_Vitis-H6177_S1_R1_001.fastq.gz"
+  R251: "FPS_RUN251_Vitis-H6091_S7_R1_001.fastq.gz"
+
+reference: "Genome/GCF_000003745.3_12X_genomic.fna"
