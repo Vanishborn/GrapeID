@@ -4,6 +4,7 @@
 Query/Genome/*
 Query/Reads/*
 Query/Result/*
+Result/
 
 README-temp.md
 ID/*
