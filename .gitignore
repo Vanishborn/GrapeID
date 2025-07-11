@@ -4,7 +4,10 @@
 Query/Genome/*
 Query/Reads/*
 Query/Result/*
+Query/config-use.yml
 Result/
 
 README-temp.md
 ID/*
+
+*.fa

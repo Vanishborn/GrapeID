@@ -92,4 +92,4 @@ rule samtools_consensus:
 		sample="|".join(SAMPLE_NAMES)
 	threads: config["threads"]["samtools_consensus"]
 	shell:
-		"samtools consensus -@ {threads} -m simple --show-del yes --show-ins no --ambig -d 0 -l 80 -f fasta {input} -o {output}"
+		"samtools consensus -@ {threads} -a -m simple --show-del yes --show-ins no --ambig -d 0 -l 80 -f fasta {input} -o {output}"
